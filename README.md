@@ -8,3 +8,5 @@ It's like more a 'carnet de notes' where i'll lay down experiences and feedback.
 First of all It's my first Python project, so it could be sometimes use bad solutions ... but it's rather than create a simple project from scratch including devops-driven development.
 
 ### So let's go !!!
+
+### but first find the white rabbit hidden in jira
