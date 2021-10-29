@@ -10,3 +10,7 @@ First of all It's my first Python project, so it could be sometimes use bad solu
 ### So let's go !!!
 
 ### but first find the white rabbit hidden in jira
+Ok ... I find it with issue key.
+
+reference issue in your development [https://support.atlassian.com/jira-software-cloud/docs/reference-issues-in-your-development-work/]
+
