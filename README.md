@@ -1,3 +1,6 @@
+
+[![Python application test with Github Actions](https://github.com/laurentraulier/yapluka/actions/workflows/main.yml/badge.svg)](https://github.com/laurentraulier/yapluka/actions/workflows/main.yml)
+
 # yapluka
 a (python) project from scratch to train new skills like tdd ci/cd microservices uml cloud &amp; so on
 
