@@ -7,3 +7,6 @@ lint :
 test :
 	python -m pytest -vv test_init.py
 
+format :
+	black *.py
+
