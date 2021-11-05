@@ -4,3 +4,6 @@ install :
 lint :
 	pylint --disable=R,C init.py
 
+test :
+	python -m pytest -vv test_init.py
+
