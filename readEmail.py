@@ -14,7 +14,7 @@ def main():
         creds = tools.run_flow(flow, store)
     service = build("gmail", "v1", http=creds.authorize(Http()))
 
-    results = service.users().messages().list(userId="me", labelIds=["INBOX"]).execute()
+    results = service.users().messages().list(userId="me", labelIds=["INBOX"]).execute()# pylint: disable=maybe-no-member
     messages = results.get("messages", [])
 
     if not messages:
@@ -23,7 +23,7 @@ def main():
         print("Message snippets:")
         for message in messages:
             msg = (
-                service.users().messages().get(userId="me", id=message["id"]).execute()
+                service.users().messages().get(userId="me", id=message["id"]).execute()# pylint: disable=maybe-no-member
             )
             print(msg["snippet"])
 
